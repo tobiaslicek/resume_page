@@ -21,3 +21,25 @@
   --fs-600: 1.75rem;
   --fs-700: 3.25rem;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  color: var(--clr-neutral-100);
+  font-family: var(--ff-base);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-regular);
+  line-height: 1.5;
+}
