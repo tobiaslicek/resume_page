@@ -71,3 +71,8 @@ main {
 aside {
   grid-column: 1;
 }
+
+.job-experience {
+    display: grid;
+    grid-auto-flow: column;
+}
