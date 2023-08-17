@@ -123,6 +123,12 @@ aside {
   border-radius: 100vw;
 }
 
+.job-experience::after {
+    content: "";
+    width: 50px;
+    background: transparent;
+}
+
 .job {
   width: 28.5rem;
   border-radius: 0.25rem;
